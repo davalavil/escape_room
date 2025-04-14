@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Textual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="image-container">
+            <img id="room-image" src="images/room1.jpg" alt="Imagen de la sala">
+        </div>
+        <div id="text-container">
+            <h2 id="room-title">Sala 1: La Biblioteca Olvidada</h2>
+            <p id="room-description">Te despiertas en una habitación llena de estanterías polvorientas. La única puerta visible está cerrada con un extraño candado numérico. Hay un escritorio viejo en una esquina y un cuadro torcido en la pared.</p>
+            <p id="feedback" class="feedback-message"></p>
+        </div>
+        <div id="interaction-container">
+            <input type="text" id="user-input" placeholder="¿Qué quieres hacer? (Ej: mirar escritorio)">
+            <button id="action-button">Ejecutar</button>
+        </div>
+        <div id="inventory-container">
+            <h3>Inventario</h3>
+            <ul id="inventory-list">
+                <!-- Los objetos aparecerán aquí -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
