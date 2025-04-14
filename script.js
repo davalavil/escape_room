@@ -23,7 +23,7 @@ const rooms = {
     room1: {
         name: "Sala 1: La Biblioteca Olvidada",
         description: "Te encuentras en una biblioteca con estanterías llenas de polvo. La única puerta visible está cerrada con un candado numérico. Hay un escritorio viejo en una esquina y un cuadro torcido en la pared.",
-        image: "images/room1.jpg",
+        image: "images/room1.jpeg",
         objects: {
             'estanterias': "Montones de libros viejos. Uno parece fuera de lugar, con el número '7' marcado en el lomo.",
             'escritorio': "Un escritorio de madera robusta. Tiene un cajón cerrado con llave. Encima hay un tintero seco y una pluma.",
@@ -41,7 +41,7 @@ const rooms = {
     room2: {
         name: "Sala 2: El Pasadizo Húmedo",
         description: "Tras la puerta, un pasadizo estrecho y húmedo desciende en la oscuridad. En las paredes hay extraños símbolos grabados y una palanca oxidada.",
-        image: "images/room2.jpg",
+        image: "images/room2.jpeg",
         objects: {
             'paredes': "Las paredes están frías y húmedas. Hay símbolos: un círculo, un cuadrado, un triángulo y una estrella.",
             'simbolos': "Círculo, Cuadrado, Triángulo, Estrella. Parecen botones que se pueden pulsar.",
@@ -62,7 +62,7 @@ const rooms = {
     room3: {
         name: "Sala 3: El Laboratorio Improvisado",
         description: "El pasadizo desemboca en lo que parece un laboratorio abandonado. Hay matraces con líquidos de colores sobre una mesa, un mechero Bunsen apagado y estantes con frascos vacíos.",
-        image: "images/room3.jpg",
+        image: "images/room3.jpeg",
         objects: {
             'matraces': "Hay tres matraces: uno con líquido ROJO, otro AZUL y otro AMARILLO.",
             'mechero': "Un mechero Bunsen clásico. Necesitaría gas y una chispa.",
@@ -84,7 +84,7 @@ const rooms = {
     room4: {
         name: "Sala 4: El Observatorio Olvidado",
         description: "Subes a una sala circular con una cúpula de cristal rota. Un gran telescopio apunta al cielo nublado. Hay cartas estelares esparcidas y un pedestal vacío en el centro.",
-        image: "images/room4.jpg",
+        image: "images/room4.jpeg",
         objects: {
             'telescopio': "Un telescopio de latón, grande pero polvoriento. Le falta una lente.",
             'cartas estelares': "Mapas del cielo nocturno. Una carta muestra la constelación de Orión destacada, con sus 7 estrellas principales marcadas.",
@@ -109,7 +109,7 @@ const rooms = {
     room5: {
         name: "Sala 5: La Puerta Final",
         description: "La escalera de caracol termina ante una imponente puerta de metal con cinco cerraduras. Junto a ella, hay un panel con ranuras y botones.",
-        image: "images/room5.jpg",
+        image: "images/room5.jpeg",
         objects: {
             'puerta final': "Una puerta enorme y pesada. Parece ser la salida definitiva.",
             'cerraduras': "Cinco cerraduras distintas. Parecen necesitar llaves o códigos específicos.",
